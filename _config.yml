@@ -32,6 +32,7 @@ baseurl: / # place folder name if the site is served in a subfolder
 
 
 # Build settings
+markdown: CommonMarkGhPages
 theme: minima
 plugins:
   - jekyll-feed
