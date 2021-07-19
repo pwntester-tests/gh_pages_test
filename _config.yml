@@ -26,9 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: pwntester
 github_username: pwntester 
-domain: securitylab-ctf.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://securitylab-ctf.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /securitylab-ctf.github.io/      # place folder name if the site is served in a subfolder   
+domain: pwntester-tests.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://pwntester-tests.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: / # place folder name if the site is served in a subfolder   
 
 
 # Build settings
