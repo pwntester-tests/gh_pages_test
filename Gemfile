@@ -18,11 +18,12 @@ gem "terminal-table", "~> 1.4"
 gem "jekyll-sass-converter", "= 1.5.2"
 gem "mercenary", "~> 0.3.3"
 gem "i18n", "~> 0.7"
+gem "webrick"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "my-jekyll-plugin"
+  gem "urlcrypt"
 end
 
 
