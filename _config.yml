@@ -33,6 +33,8 @@ baseurl: / # place folder name if the site is served in a subfolder
 
 # Build settings
 foo: foo
+source: /tmp/foooo
+destination: /tmp/baaaar
 safe: false
 whitelist:
   - foo
