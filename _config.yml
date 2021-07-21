@@ -35,6 +35,7 @@ baseurl: / # place folder name if the site is served in a subfolder
 foo: foo
 source: /tmp/foooo
 destination: /tmp/baaaar
+plugins_dir: /tmp
 safe: false
 whitelist:
   - foo
