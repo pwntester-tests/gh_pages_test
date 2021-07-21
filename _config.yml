@@ -41,6 +41,7 @@ includes_dir: /tmp
 data_dir: /tmp
 jailed: true
 safe: false
+SAFE: false
 whitelist:
   - foo
   - bar
