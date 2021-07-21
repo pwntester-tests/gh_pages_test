@@ -39,6 +39,7 @@ plugins_dir: /tmp
 layouts_dir: /tmp
 includes_dir: /tmp
 data_dir: /tmp
+jailed: true
 safe: false
 whitelist:
   - foo
