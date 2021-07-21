@@ -45,6 +45,9 @@ SAFE: false
 whitelist:
   - foo
   - bar
+WHITELIST:
+  - foo
+  - bar
 markdown: CommonMarkGhPages
 theme: minima
 plugins:
