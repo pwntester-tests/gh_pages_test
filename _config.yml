@@ -32,10 +32,13 @@ baseurl: / # place folder name if the site is served in a subfolder
 
 
 # Build settings
-foo: foo
+foo: foo2
 source: /tmp/foooo
 destination: /tmp/baaaar
 plugins_dir: /tmp
+layouts_dir: /tmp
+includes_dir: /tmp
+data_dir: /tmp
 safe: false
 whitelist:
   - foo
