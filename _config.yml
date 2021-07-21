@@ -32,6 +32,7 @@ baseurl: / # place folder name if the site is served in a subfolder
 
 
 # Build settings
+safe: false
 markdown: CommonMarkGhPages
 theme: minima
 plugins:
