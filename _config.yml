@@ -32,7 +32,11 @@ baseurl: / # place folder name if the site is served in a subfolder
 
 
 # Build settings
+foo: foo
 safe: false
+whitelist:
+  - foo
+  - bar
 markdown: CommonMarkGhPages
 theme: minima
 plugins:
