@@ -41,6 +41,8 @@ markdown: CommonMarkGhPages
 theme: minima
 plugins:
   - jekyll-feed
+forwarded_env:
+  JEKYLL_ENV: FOO
 
 # Exclude from processing.
 # The following items will not be processed, by default.
