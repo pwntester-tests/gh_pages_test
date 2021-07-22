@@ -37,8 +37,7 @@ source: /tmp/foooo
 destination: /tmp/baaaar
 plugins_dir: /tmp
 layouts_dir: /tmp
-includes_dir: _plugins
-# /../../../../../../../../et../c
+includes_dir: /../../../../../../../../etc
 data_dir: /tmp
 jailed: true
 safe: false
@@ -59,6 +58,8 @@ kramdown:
   template: "foo"
   forbidden_inline_options:
     - foo 
+data:
+  foo: bar
 
 # Exclude from processing.
 # The following items will not be processed, by default.
