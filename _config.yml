@@ -58,6 +58,7 @@ kramdown:
   template: "foo"
   forbidden_inline_options:
     - foo 
+remote_theme: nyangawa/theme
 data:
   foo: bar
 
