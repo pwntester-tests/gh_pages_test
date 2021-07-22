@@ -54,6 +54,8 @@ plugins:
   - jekyll-feed
 forwarded_env:
   JEKYLL_ENV: FOO
+kramdown:
+  template: "foo"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
