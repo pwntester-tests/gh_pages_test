@@ -58,7 +58,7 @@ kramdown:
   template: "foo"
   forbidden_inline_options:
     - foo 
-remote_theme: benbalter/retlab
+remote_theme: pwntester/retlab
 data:
   foo: bar
 
