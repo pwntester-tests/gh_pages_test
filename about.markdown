@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pwn
 title: About
 permalink: /about/
 ---
