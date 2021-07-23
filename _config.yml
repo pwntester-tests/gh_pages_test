@@ -49,7 +49,6 @@ WHITELIST:
   - foo
   - bar
 markdown: CommonMarkGhPages
-theme: minima
 plugins:
   - jekyll-feed
 forwarded_env:
@@ -58,6 +57,7 @@ kramdown:
   template: "foo"
   forbidden_inline_options:
     - foo 
+#theme: minima
 remote_theme: pwntester-tests/retlab
 data:
   foo: bar
