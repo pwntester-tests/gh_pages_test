@@ -58,7 +58,7 @@ kramdown:
   forbidden_inline_options:
     - foo 
 #theme: minima
-remote_theme: pwntester-tests/retlab
+#remote_theme: pwntester-tests/retlab
 data:
   foo: bar
 coderay:
