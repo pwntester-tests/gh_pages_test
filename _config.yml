@@ -48,7 +48,7 @@ whitelist:
 WHITELIST:
   - foo
   - bar
-markdown: CommonMarkGhPages
+markdown: kramdown 
 plugins:
   - jekyll-feed
 forwarded_env:
