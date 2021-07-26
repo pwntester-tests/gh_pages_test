@@ -57,13 +57,13 @@ kramdown:
   template: "foo"
   forbidden_inline_options:
     - foo 
+  coderay:
+    coderay_formatter: Hoosegow
+    coderay_inmate_dir: /tmp/
 #theme: minima
 #remote_theme: pwntester-tests/retlab
 data:
   foo: bar
-coderay:
-  coderay_formatter: Hoosegow
-  coderay_inmate_dir: /tmp/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
