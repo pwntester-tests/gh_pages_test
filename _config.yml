@@ -57,9 +57,9 @@ kramdown:
   template: "foo"
   forbidden_inline_options:
     - foo 
-  coderay:
-    coderay_formatter: Hoosegow
-    coderay_inmate_dir: /tmp/
+  # coderay:
+  #   coderay_formatter: Hoosegow
+  #   coderay_inmate_dir: /tmp/
 theme: multi_json
 #remote_theme: pwntester-tests/retlab
 data:
