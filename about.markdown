@@ -1,5 +1,5 @@
 ---
-layout: pwn
+layout: post
 title: About
 permalink: /about/
 ---
