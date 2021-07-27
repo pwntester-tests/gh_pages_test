@@ -59,8 +59,8 @@ kramdown:
     - foo 
   coderay_formatter: Hoosegow
   coderay_inmate_dir: /tmp/
-theme: foo
-#remote_theme: pwntester-tests/retlab
+#theme: foo
+remote_theme: pwntester-tests/retlab
 data:
   foo: bar
 
