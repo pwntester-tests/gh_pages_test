@@ -67,9 +67,9 @@ data:
 defaults:
   - title: foo
     scope:
-      foo: bar
+      path: //etc/passwd
     values:
-      foo: bar
+      baz: bar
 
 # Exclude from processing.
 # The following items will not be processed, by default.
