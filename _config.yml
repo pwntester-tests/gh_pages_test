@@ -64,6 +64,8 @@ theme: multi_json
   #remote_theme: pwntester-tests/retlab
 data:
   foo: bar
+defaults:
+  - title: foo
 
 # Exclude from processing.
 # The following items will not be processed, by default.
