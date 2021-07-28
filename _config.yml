@@ -66,6 +66,7 @@ data:
   foo: bar
 defaults:
   - title: foo
+    scope: foo
     values:
       foo: bar
 
