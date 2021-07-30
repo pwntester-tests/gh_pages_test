@@ -71,6 +71,13 @@ defaults:
     values:
       baz: bar
 
+collections_dir: ../foo
+collections:
+  posts:
+    collections_dir: ../foo
+    output: true,
+    permalink: "/:categories/:year/:month/:day/:title:output_ext"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
