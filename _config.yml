@@ -1,0 +1,94 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Test site
+email: pwntester@github.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+twitter_username: pwntester
+github_username: pwntester 
+domain: pwntester-tests.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://pwntester-tests.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: / # place folder name if the site is served in a subfolder   
+
+
+# Build settings
+foo: foo2
+source: /tmp/foooo
+destination: /tmp/baaaar
+plugins_dir: /tmp
+layouts_dir: /tmp
+#includes_dir: /../../../../../../../../etc
+data_dir: /tmp
+jailed: true
+safe: false
+SAFE: false
+whitelist:
+  - foo
+  - bar
+WHITELIST:
+  - foo
+  - bar
+markdown: kramdown 
+plugins:
+  - jekyll-feed
+forwarded_env:
+  JEKYLL_ENV: FOO
+kramdown:
+  template: "foo"
+  forbidden_inline_options:
+    - foo 
+  # coderay:
+  #   coderay_formatter: Hoosegow
+  #   coderay_inmate_dir: /tmp/
+#theme: multi_json
+remote_theme: pwntester-tests/retlab
+data:
+  foo: bar
+defaults:
+  - title: foo
+    scope:
+      path: //etc/passwd
+    values:
+      baz: bar
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+include:
+  - /etc/passwd
+  - ../../../../../../../../etc/passwd
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
