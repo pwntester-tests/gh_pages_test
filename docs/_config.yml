@@ -60,8 +60,8 @@ kramdown:
   # coderay:
   #   coderay_formatter: Hoosegow
   #   coderay_inmate_dir: /tmp/
-theme: multi_json
-  #remote_theme: pwntester-tests/retlab
+#theme: multi_json
+remote_theme: pwntester-tests/retlab
 data:
   foo: bar
 defaults:
